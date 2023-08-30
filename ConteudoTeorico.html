@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo Teorico - Java</title>
+    <style>
+        body {
+            padding-bottom: 100px;
+        }
+        .exercicios {
+            background-color: rgba(0, 0, 255, 0.4);
+            border: solid 1px blue;
+            margin: 10px 2px;
+        }
+
+        .exercicios p,
+        .exercicios code {
+            font-weight: bold;
+        }
+
+        .example {
+            width: fit-content;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: lightgray;
+        }
+
+        .notes {
+            width: fit-content;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>1. Classes e Objectos</h1>
+
+    <h2>1.1. Modificadores de acesso</h2>
+        <ul>
+            <li><strong>public</strong> => Pode ser acedido por qualquer outro programa Java</li>
+            <li><strong>protected</strong> => pode ser acedido apenas por programas java que estao no mesmo pacote</li>
+            <li><strong>private</strong> => Nao pode ser acedido por programas externos</li>
+        </ul>
+
+    <h2>1.2. Variaveis e metedos estaticos</h2>
+        <p>Todo o metodo estatico deve chamar e/ou usar variaveis ou metodos tambem estaticos.</p>
+
+    3. Classes  - Sao modelos instanciaveis, i.e, modelos a partir dos quais podemos criar copias e usar os
+                  seus atributos e/ou metodos. Classe e' um modelo para a criacao de um objecto.
+        3.1. Atributos - sao propriedades que uma classe tem.
+        3.2. Construtor - e' um metodo que inicializa os atributos da classe, ou seja, da as informacoes inciais
+                            dos atributos da classe.
+            NB: Os construtores dever ser publicos e devem ter o mesmo nome que a classe.
+        3.3. Getters e Setters - sao usados para obter e modificar valores dos atributos respectivamente.
+
+    4. Objectos - objectos sao instancias de uma classe. (Um objecto e' uma copia de uma classe)
+        4.1. Sintaxe da criacao de um objecto
+            NomeDaClasse nomeDoObjecto = new NomeDaClasse(argumentos);
+
+    <h1>2. Arrays de Objectos</h1>
+
+
+    <h1>3. Heranca</h1>
+
+    <p>
+        Heranca e' a capacidade de uma classe herdar atributos e metodos de uma classe. A classe que 
+        herda os atributos e metodos e' chamada de subclasse e outra classe e' chamada superclasse. <br>
+    
+        Para herdar os atributos e metodos de uma classe, usamos a palavra-chave "extends".
+    </p>
+    
+
+    <div class="notes">
+        <p><Strong>Notas:</Strong></p>
+        <ul>
+            <li>O construtor de uma subclasse recebe, alem dos seus proprios atributos, o</li>
+        </ul>
+    </div>
+</body>
+</html>
